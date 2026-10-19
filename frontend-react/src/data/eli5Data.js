@@ -1,6 +1,6 @@
 // ============================================================================
-// 5-YEAR-OLD (ELI5) EXPLANATIONS & EVERYDAY ANALOGIES FOR ALL 25 TOPICS
-// Fun, super-simple, intuitive stories in fluent English & Bengali
+// Intuitive Physical Explanations & Conceptual Real-World Analogies (Topics 1-27)
+// Simple, intuitive conceptual models in fluent English & Bengali
 // ============================================================================
 
 export const ELI5_TOPIC_DATA = {
