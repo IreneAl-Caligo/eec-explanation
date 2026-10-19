@@ -1,9 +1,10 @@
 # ⚡ CSE EEC Interactive Virtual Laboratory & Bilingual Simulator
 
-[![Vercel Deployment](https://img.shields.io/badge/Vercel-Ready%20for%20Production-black?style=for-the-badge&logo=vercel)](https://vercel.com)
+[![Live Production](https://img.shields.io/badge/Live%20Platform-eec--explanation.vercel.app-success?style=for-the-badge&logo=vercel)](https://eec-explanation.vercel.app)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/IreneAl-Caligo/eec-explanation/actions)
 [![React](https://img.shields.io/badge/React-18.3.1-61dafb?style=for-the-badge&logo=react)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5.4.10-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.14-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
 A state-of-the-art interactive virtual laboratory and semiconductor physics simulator for Computer Science & Engineering (CSE) 1st-Year Electrical Engineering & Circuit Theory (EEC) courses.
 
