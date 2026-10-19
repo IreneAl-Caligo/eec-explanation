@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased selection:bg-indigo-600 selection:text-white transition-colors duration-200;
+    font-family: 'Inter', 'Noto Sans Bengali', system-ui, -apple-system, sans-serif;
+  }
+  .dark body, body.dark, html.dark body {
+    @apply bg-slate-950 text-slate-100 selection:bg-indigo-500 selection:text-white;
+  }
+}
+
+/* Custom sleek scrollbars for light and dark modes */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Electronic breadboard subtle dot grid */
+.circuit-grid {
+  background-image: radial-gradient(#cbd5e1 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+.dark .circuit-grid {
+  background-image: radial-gradient(#334155 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+/* Hide scrollbar utility for touch scroll strips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

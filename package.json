@@ -1,0 +1,12 @@
+{
+  "name": "eec-fullstack-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive Electronic Devices & Semiconductor Physics Laboratory Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend-react run dev",
+    "build": "npm --prefix frontend-react run build",
+    "preview": "npm --prefix frontend-react run preview",
+    "install:frontend": "npm --prefix frontend-react install"
+  }
+}
