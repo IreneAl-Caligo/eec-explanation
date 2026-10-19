@@ -1,7 +1,7 @@
 # ⚡ CSE EEC Interactive Virtual Laboratory & Bilingual Simulator
 
 [![Live Production](https://img.shields.io/badge/Live%20Platform-eec--explanation.vercel.app-success?style=for-the-badge&logo=vercel)](https://eec-explanation.vercel.app)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/IreneAl-Caligo/eec-explanation/actions)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/Nur-Hasan-Jisan/eec-explanation/actions)
 [![React](https://img.shields.io/badge/React-18.3.1-61dafb?style=for-the-badge&logo=react)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5.4.10-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
