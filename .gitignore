@@ -54,5 +54,14 @@ lerna-debug.log*
 .DS_Store
 Thumbs.db
 
+# AI & Editor Tools
+.kiro/
+.cursor/
+.windsurf/
+.claude/
+.gemini/
+.antigravity/
+
 # Vercel
 .vercel
+

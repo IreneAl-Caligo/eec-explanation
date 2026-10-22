@@ -23,12 +23,18 @@ dist-ssr
 *.sln
 *.sw?
 
+# AI & Editor Tools
+.kiro/
+.cursor/
+.windsurf/
+.claude/
+.gemini/
+.antigravity/
+
 # Environment
 .env
 .env.local
 .env.*.local
 
 # Vercel
-.vercel
-
 .vercel
