@@ -15,7 +15,7 @@ A state-of-the-art interactive virtual laboratory and semiconductor physics simu
 - **27 Fully Implemented Interactive Labs**: Covering Topics 1 through 27 (Covalent crystal lattices, PN junctions, Zener diodes, Rectifiers, Clipper/Clampers, BJT configurations, JFET/MOSFET characteristics, Operational Amplifiers, Logic Gates, and more).
 - **Component Creator & Customization Workbench**: Custom workbenches specifically tailored to each lab, allowing students and educators to tweak physical parameters, introduce custom components, toggle real-time signal generators, and inspect live voltage/current responses.
 - **Fluent Bilingual Translation (English ⇄ Bangla)**: Instantaneous, deep translation across every topic, formula explanation, parameter label, and workbench button.
-- **5-Year-Old (ELI5) + Core Physics Explanations**: Every core equation includes intuitive, accessible explanations alongside rigorous physical derivations.
+- **Intuitive Concepts & Core Physics Explanations**: Every core equation includes intuitive, accessible explanations alongside rigorous physical derivations.
 - **Dark & Light Mode**: Instant theme switching with high-contrast laboratory aesthetics and smooth transitions.
 - **100% Client-Side Real-Time Physics**: Zero external server runtime requirement for simulations—zero latency, highly responsive 60 FPS Canvas and SVG animations.
 - **Vercel-Ready**: Preconfigured with `vercel.json` SPA rewrites and optimized Rollup code splitting (sub-400kB bundles).

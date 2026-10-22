@@ -13,7 +13,7 @@ export const TRANSLATIONS = {
     
     // Navigation Tabs
     tabMasterIndex: 'Master Index',
-    tabInteractiveLab: 'Interactive Lab',
+    tabInteractiveLab: 'Virtual Lab',
     tabExplanation: 'Explanation',
     
     // Language & Theme
@@ -49,7 +49,7 @@ export const TRANSLATIONS = {
     colActions: 'Actions',
     
     // Buttons & Badges
-    btnLaunchLab: 'Launch Interactive Lab',
+    btnLaunchLab: 'Launch Lab',
     btnExplain5yo: '💡 Topic Explanation',
     btnCustomSandbox: '🛠️ Create & Experiment',
     btnInspectFormula: 'Inspect Formula',
@@ -113,7 +113,7 @@ export const TRANSLATIONS = {
     
     // Navigation Tabs
     tabMasterIndex: 'মাস্টার ইনডেক্স',
-    tabInteractiveLab: 'ইন্টারেক্টিভ ল্যাব',
+    tabInteractiveLab: 'ভার্চুয়াল ল্যাব',
     tabExplanation: 'ব্যাখ্যা ও সূত্র',
     
     // Language & Theme
@@ -124,7 +124,7 @@ export const TRANSLATIONS = {
     
     // Master Index Controls
     indexHeaderTitle: 'বয়েলস্টেড ১১শ সংস্করণ পাঠ্যসূচি ইনডেক্স',
-    indexHeaderDesc: 'ইন্টারেক্টিভ পদার্থবিজ্ঞান সিমুলেশন, নির্ভুল পরীক্ষার সামারি এবং ৫ বছরের বাচ্চার মতো সহজ গল্পের মাধ্যমে ২৫টি মূল টপিক শিখুন।',
+    indexHeaderDesc: 'ইন্টারেক্টিভ পদার্থবিজ্ঞান সিমুলেশন, নির্ভুল পরীক্ষার সামারি এবং সহজ বাস্তব উপমার মাধ্যমে ২৫টি মূল টপিক শিখুন।',
     searchPlaceholder: '২৫টি টপিক বা সূত্রের নাম দিয়ে খুঁজুন (যেমন: শকলে, জেনার, রেক্টিফায়ার, বিজিটি)...',
     filterAll: 'সকল পাঠ (২৫)',
     filterPhysics: 'সেমিকন্ডাক্টর ফিজিক্স (০–৫)',

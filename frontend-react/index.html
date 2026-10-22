@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236366f1'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Interactive Virtual Laboratory & Bilingual Simulator for Electronic Engineering & Semiconductor Physics covering Topics 1-27 with real-time circuit experiments, ELI5 formula explanations, and customizable workbenches." />
+    <meta name="theme-color" content="#4f46e5" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="description" content="CSE 1st Year Electrical Engineering & Semiconductor Physics Interactive Virtual Laboratory & Bilingual Simulator covering Topics 1-25+ with real-time circuit experiments, clear formula explanations, and customizable workbenches." />
     <title>CSE 1st Year EEC Interactive Virtual Lab & Bilingual Simulator</title>
-    <!-- Google Fonts for English (Inter, Fira Code) & Bengali (Noto Sans Bengali) -->
+    <!-- Instant Dark/Light Theme Synchronization Script to prevent color flashes -->
+    <script>
+      (function() {
+        try {
+          const theme = localStorage.getItem('eec_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <!-- Google Fonts for English (Inter, Fira Code) & Bengali (Hind Siliguri, Noto Sans Bengali) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Bengali:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Bengali:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body class="min-h-screen transition-colors duration-200">
     <div id="root"></div>

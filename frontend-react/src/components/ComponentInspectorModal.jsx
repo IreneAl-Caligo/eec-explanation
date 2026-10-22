@@ -1,6 +1,7 @@
 import React from 'react';
 import { Info, X, Zap, Sliders, BookOpen, Layers, CheckCircle2, ArrowRight } from 'lucide-react';
 import { INSPECTOR_DATABASE } from '../data/inspectorData';
+import MathView from './MathView';
 
 export default function ComponentInspectorModal({ itemKey, onClose, onLaunchLab }) {
   if (!itemKey) return null;
@@ -51,9 +52,11 @@ export default function ComponentInspectorModal({ itemKey, onClose, onLaunchLab 
 
         {/* Governing Formula */}
         {item.formula && (
-          <div className="bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 rounded-xl p-3 flex flex-wrap items-center justify-between gap-2">
-            <span className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Governing Equation:</span>
-            <code className="text-xs md:text-sm font-mono font-bold text-amber-700 dark:text-amber-400 break-all">{item.formula}</code>
+          <div className="bg-amber-500/10 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-700/70 rounded-xl p-3 flex flex-wrap items-center justify-between gap-3">
+            <span className="text-xs font-bold text-amber-900 dark:text-amber-300 uppercase tracking-wider">Governing Equation:</span>
+            <div className="text-xs md:text-sm font-semibold text-amber-800 dark:text-amber-300 overflow-x-auto">
+              <MathView math={item.formula} display={false} />
+            </div>
           </div>
         )}
 

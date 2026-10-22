@@ -1,0 +1,18 @@
+{
+  "short_name": "EEC Lab",
+  "name": "CSE EEC Interactive Virtual Laboratory & Bilingual Simulator",
+  "description": "Interactive Virtual Laboratory and Semiconductor Physics Simulator for Computer Science & Engineering undergraduate curricula.",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236366f1'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/#/index",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "display": "standalone",
+  "orientation": "any"
+}
